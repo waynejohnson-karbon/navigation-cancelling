@@ -1,0 +1,8 @@
+<div class="modal">
+    <h2>Dirty Modal</h2>
+    <p>You want to go elsewhere but this page is dirty.</p>
+    <p>Are you sure?</p>
+    {{yield}}
+    <button {{on 'click' this.onOk}}>OK</button>
+    <button {{on 'click' this.onCancel}}>Cancel</button>
+</div>

@@ -1,0 +1,18 @@
+body {
+    margin: 5px;
+}
+
+.outlet {
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.modal {
+    background-color: #EEEEEE;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

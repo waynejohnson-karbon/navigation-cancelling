@@ -1,0 +1,8 @@
+<BackButton>Go Back</BackButton>
+<h1>Animal Maker. Dirty form.</h1>
+{{yield}}
+
+<DirtyButton @actionWhenClicked={{this.doSomething}}>Dirty the form</DirtyButton>
+{{#if this.showModal}}
+    <DirtyModal @okAction={{this.okAction}} @cancelAction={{this.cancelAction}}></DirtyModal>
+{{/if}}

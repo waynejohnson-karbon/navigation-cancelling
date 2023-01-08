@@ -1,5 +1,15 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<h1>Default Application Header</h1>
 
+<LinkTo @route="cats">Cats Page</LinkTo> | 
+<LinkTo @route="dogs">Dogs Page</LinkTo> |
+<LinkTo @route="animal-maker">Animal Maker</LinkTo> 
+
+<br />
+
+<a href="/cats">Cats href</a> | 
+<a href="/dogs">Dogs href</a> |
+<a href="/animal-maker">Animal Maker href</a> 
+
+<div class="outlet">
 {{outlet}}
+</div>
